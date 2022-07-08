@@ -7,15 +7,14 @@
 <script>
 export default {
     name: "Joke",
-    props: ["joken", "id"],
+    props: ["joke", "id"],
 }
 </script>
 
 <style>
-.joke {
-    padding: 1rem;
-    border: 1px dotted gray;
-    margin: 1rem 0;
-}
-
+    .joke {
+        padding: 1rem;
+        border: 1px dotted gray;
+        margin: 1rem 0;
+    }
 </style>
